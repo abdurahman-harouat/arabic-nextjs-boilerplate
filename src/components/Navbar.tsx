@@ -5,12 +5,12 @@ import { ThemeToggle } from './site/theme-toggle';
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl w-full mx-auto border-b py-4 flex flex-row justify-between items-center">
+    <div className="mx-auto flex w-full max-w-7xl flex-row items-center justify-between border-b py-4">
       {/* logo */}
       <span>شعار الموقع</span>
 
       {/* left side */}
-      <div className="flex flex-row gap-2 items-center">
+      <div className="flex flex-row items-center gap-2">
         <ThemeToggle />
         <AuthentificationModal />
       </div>

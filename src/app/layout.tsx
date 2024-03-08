@@ -28,12 +28,12 @@ export default async function RootLayout({
       <SessionProvider session={session}>
         <html lang="en" dir="rtl">
           <body
-            className={cn(el_messiri.className, 'flex flex-col min-h-screen')}
+            className={cn(el_messiri.className, 'flex min-h-screen flex-col')}
           >
             <ThemeProvider attribute="class" defaultTheme="light">
               <Provider>
                 <Navbar />
-                <main className="flex flex-col flex-1">{children}</main>
+                <main className="flex flex-1 flex-col">{children}</main>
                 <Footer />
               </Provider>
             </ThemeProvider>

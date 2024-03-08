@@ -1,18 +1,18 @@
-import * as z from "zod";
+import * as z from 'zod';
 
 export const LoginSchema = z.object({
   email: z
     .string()
-    .refine((value) => value !== "", {
-      message: "يجب ملئ حقل البريد الإلكتروني",
+    .refine((value) => value !== '', {
+      message: 'يجب ملئ حقل البريد الإلكتروني',
       // Email field is required
     })
     .refine((value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value), {
-      message: "بريدك الإلكتروني غير صحيح",
+      message: 'بريدك الإلكتروني غير صحيح',
       // Email format is incorrect
     }),
-  password: z.string().refine((value) => value !== "", {
-    message: "يجب إدخال كلمة المرور",
+  password: z.string().refine((value) => value !== '', {
+    message: 'يجب إدخال كلمة المرور',
     // Password is required
   }),
 });
@@ -20,20 +20,20 @@ export const LoginSchema = z.object({
 export const RegisterSchema = z.object({
   email: z
     .string()
-    .refine((value) => value !== "", {
-      message: "يجب ملئ حقل البريد الإلكتروني",
+    .refine((value) => value !== '', {
+      message: 'يجب ملئ حقل البريد الإلكتروني',
       // Email field is required
     })
     .refine((value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value), {
-      message: "بريدك الإلكتروني غير صحيح",
+      message: 'بريدك الإلكتروني غير صحيح',
       // Email format is incorrect
     }),
   password: z.string().min(6, {
-    message: "يجب إدخال 6 أحرف أو أرقام على الأقل",
+    message: 'يجب إدخال 6 أحرف أو أرقام على الأقل',
     // Password should be at least 6 characters
   }),
   name: z.string().min(1, {
-    message: "يجب ملئ حقل الإسم",
+    message: 'يجب ملئ حقل الإسم',
     // Name is required
   }),
 });

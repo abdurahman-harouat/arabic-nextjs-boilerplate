@@ -1,22 +1,14 @@
-import { z } from 'zod';
-
-import { currentRole } from '@/lib/auth';
-import { db } from '@/lib/db';
-
-import { publicProcedure, router } from './trpc';
+import { router } from './trpc';
 
 export const appRouter = router({
   //  ------ get request example --------
-
   // getWriteups: publicProcedure.query(async () => {
   //   const writeups = await db.writeUp.findMany({
   //     orderBy: { updatedAt: 'desc' },
   //   });
   //   return writeups;
   // }),
-
   // ----- get by id example ----------
-
   // getWriteupByID: publicProcedure
   //   .input(
   //     z.object({
@@ -27,9 +19,7 @@ export const appRouter = router({
   //     const writeup = await db.writeUp.findUnique({ where: { id: input.id } });
   //     return writeup;
   //   }),
-
   // ------- update only if admin example --------
-  
   // updateSettings: publicProcedure
   //   .input(settingsSchema)
   //   .mutation(async ({ input }) => {
@@ -37,7 +27,6 @@ export const appRouter = router({
   //     if (!isAdmin) {
   //       return 'هذه البيانات مسموح بها للآدمين فقط';
   //     }
-
   //     const existingSettings = await db.settings.findFirst();
   //     if (existingSettings) {
   //       const updatedSettings = await db.settings.update({
