@@ -1,7 +1,7 @@
 import { createUploadthing } from 'uploadthing/next';
 import { UploadThingError } from 'uploadthing/server';
 
-import { currentRole, currentUser } from '@/lib/auth';
+import { currentRole, currentUser } from '../../../../lib/auth';
 
 import type { FileRouter } from 'uploadthing/next';
 

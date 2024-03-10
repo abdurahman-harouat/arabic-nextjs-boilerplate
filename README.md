@@ -2,7 +2,8 @@
 
 <p align="right"><h3>الأدوات المستخدمة 🛠️</h3></p>
 
-<ul align="right">
+<div align="right">
+    <ul align="right">
 <li align="right"> NextJs ^14.1.0</li>
 <li align="right"> Typescript ^5</li>
 <li align="right"> ESlint ^8</li>
@@ -25,6 +26,7 @@
 <li align="right"> uploadthing</li>
 <li align="right"> resend</li>
 </ul>
+</div>
 
 <p align="right"><h3>⛵ البدأ بإستخدامه</h3></p>
 
