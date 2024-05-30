@@ -4,27 +4,27 @@
 
 <div align="right">
     <ul align="right">
-<li align="right"> NextJs ^14.1.0</li>
-<li align="right"> Typescript ^5</li>
-<li align="right"> ESlint ^8</li>
-<li align="right"> TailwindCSS ^3.3.0</li>
-<li align="right"> `src/` directory</li>
-<li align="right"> App Router</li>
-<li align="right"> alias `@/`</li>
-<li align="right"> Prisma ^5.10.2 `+` @prisma/client ^5.10.2</li>
-<li align="right"> mongodb</li>
-<li align="right"> mongodb</li>
-<li align="right"> AuthJs v5</li>
-<li align="right"> next-themes for dark mode</li>
-<li align="right"> `shadcn` : New York - yellow - radius 1.0</li>
-<li align="right"> react-icons + lucide-react</li>
-<li align="right"> bcryptjs</li>
-<li align="right"> auth providers : google / github / credential provider</li>
-<li align="right"> Prettier</li>
-<li align="right"> TRPC</li>
-<li align="right"> zod `+` react-hook-form `+` @hookform/resolvers</li>
-<li align="right"> uploadthing</li>
-<li align="right"> resend</li>
+<p align="right">- NextJs ^14.1.0</p>
+<p align="right">- Typescript ^5</p>
+<p align="right">- ESlint ^8</p>
+<p align="right">- TailwindCSS ^3.3.0</p>
+<p align="right">- `src/` directory</p>
+<p align="right">- App Router</p>
+<p align="right">- alias `@/`</p>
+<p align="right">- Prisma ^5.10.2 `+` @prisma/client ^5.10.2</p>
+<p align="right">- mongodb</p>
+<p align="right">- mongodb</p>
+<p align="right">- AuthJs v5</p>
+<p align="right">- next-themes for dark mode</p>
+<p align="right">- `shadcn` : New York - yellow - radius 1.0</p>
+<p align="right">- react-icons + lucide-react</p>
+<p align="right">- bcryptjs</p>
+<p align="right">- auth providers : google / github / credential provider</p>
+<p align="right">- Prettier</p>
+<p align="right">- TRPC</p>
+<p align="right">- zod `+` react-hook-form `+` @hookform/resolvers</p>
+<p align="right">- uploadthing</p>
+<p align="right">- resend</p>
 </ul>
 </div>
 
